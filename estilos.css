@@ -1,0 +1,51 @@
+/*barra de navegacion */
+
+.nav-link:hover {
+    
+   color: brown;
+
+}
+
+.navbar-collapse { 
+   align-items:center;
+    justify-content:space-between;
+    font-size: small;
+}
+
+@media screen and (max-width:767px){
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+section {
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+   
+}
+.hero {
+min-height: 450px;
+background-color:#f5f7f9;
+text-align: center;
+
+
+}
+
+.hero-principal {
+    padding: 3rem;
+
+}
+
+.hero-imagen-perfil{
+    border-radius: 80%;
+    height: 250px;
+    width: 215px;
+}
