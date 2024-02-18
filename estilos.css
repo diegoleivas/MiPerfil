@@ -71,13 +71,27 @@ text-align: center;
     border-radius: 80%;
     height: 250px;
     width: 215px;
+    box-shadow: rgba(50,4,5,0.4) 3px 3px 5px ;
 }
 
 .seccion-oscura {
-    background-color:dimgrey;
-    color: beige;
+    background-color:dimgrey ;
     
-}
+    color: beige;
+    }
 
+    .sobre-mi{
+        height: 300px;
+        padding: 10px;
+    }
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+.seccion-titulo {
+    font-size: 2rem;
+    font-family: 'Protest Riot', normal;
+
+}
 
   
