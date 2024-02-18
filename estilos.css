@@ -23,16 +23,26 @@
 
     .hero-inferior-imagen {
         max-width: 600px;
+    }    
+}
 
-
-
-
+@media screen and (max-width:767px) {
+    .hero-principal h1  {
+        font-size:2rem;
     }
-    
-
 
     
 }
+
+@media screen and (max-width:767px) {
+    .hero-principal .subtitulo {
+        font-size: 2rem;
+    }
+    
+}
+
+
+
 
 section {
     display: flex;
