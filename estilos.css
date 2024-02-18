@@ -43,13 +43,14 @@ section {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 4rem;
     padding: 2%;
     font-family: 'Protest Riot', normal;
     
-    
-   
-    
+}
+.hero-principal h2 {
+    font-family: 'Protest Riot', normal;
+    font-size: 4rem;
 }
 
 .hero {
@@ -75,6 +76,7 @@ text-align: center;
 .seccion-oscura {
     background-color:dimgrey;
     color: beige;
+    
 }
 
 
