@@ -10,6 +10,7 @@
    align-items:center;
     justify-content:space-between;
     font-size: small;
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width:767px){
@@ -73,6 +74,9 @@ text-align: center;
 
 .hero-principal {
     padding: 3rem;
+    background-image: url(imagenes/Background_principal.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
 
 }
 
