@@ -19,6 +19,21 @@
 
 }
 
+@media screen and (min-width: 700px) {
+
+    .hero-inferior-imagen {
+        max-width: 600px;
+
+
+
+
+    }
+    
+
+
+    
+}
+
 section {
     display: flex;
     align-items:center;
@@ -51,11 +66,16 @@ text-align: center;
 }
 
 .hero-imagen-perfil{
+
     border-radius: 80%;
     height: 250px;
     width: 215px;
 }
 
+.seccion-oscura {
+    background-color:dimgrey;
+    color: beige;
+}
 
 
   
