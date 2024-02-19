@@ -19,6 +19,13 @@
 
 }
 
+@media screen and (max-width:767px){
+    .navbar-nav{
+        font-size: 1rem;
+    }
+
+}
+
 @media screen and (min-width: 700px) {
 
     .hero-inferior-imagen {
@@ -65,7 +72,7 @@ h1 {
 
 .hero {
 min-height: 450px;
-background-color:#f5f7f9;
+background-color:#f6f9f5;
 text-align: center;
 
 
@@ -73,7 +80,7 @@ text-align: center;
 
 .hero-principal {
     padding: 3rem;
-    background-image: url(imagenes/Background_principal.jpg);
+    /* background-image: url(imagenes/Background_principal.jpg); */
     background-size:cover;
     background-repeat:no-repeat;
 
