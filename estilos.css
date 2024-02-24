@@ -126,19 +126,14 @@ text-align: center;
 }
 
 .experiencia {
-    padding: 15px 0px;
-    
-   
-    
-    
+    padding: 40px 0px;
+ 
     
 }
 
-.experiencia .row div {
-    height: 250px;
 
-   
-}
+
+
 
 .experiencia-titulo {
     font-size: 25px;
@@ -152,14 +147,54 @@ text-align: center;
         color: rgb(138, 134, 62);
         padding: 8px 19px;
         
+        
 
     }
+    .fila {
+       
+        padding: 0px 5px
+        
+    
+        
+    }
+
+
+
+    .experiencia .columna {
+
+        padding: 20px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+        border-radius: 4%;
+        
+    }
+    .experiencia .columna:hover {
+        background-color: rgb(236, 236, 197);
+        transition: all 1s ease-in;
+        opacity:initial;
+
+
+    }
+    
+
+
+
     .badges-contenedor {
         font-size: 20px;
         font-weight: bold;
+        
+        
+        
+        
+      
     }
     .badge {
         margin: 3px;
+        
     }
+
+   
 
 
