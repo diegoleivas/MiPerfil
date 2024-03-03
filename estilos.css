@@ -19,6 +19,10 @@
 
 }
 
+
+
+
+
 @media screen and (max-width:767px){
     .navbar-nav{
         font-size: 1rem;
@@ -99,6 +103,11 @@ text-align: center;
     
     color: beige;
     }
+    .seccion-clara {
+        background-color: white;
+        color: black;
+
+    }
 
     .sobre-mi{
         height: 300px;
@@ -177,6 +186,14 @@ text-align: center;
 
 
     }
+
+    .experiencia-descripcion {
+
+        font-size:small;
+        font-family: "source code Pro";
+
+     
+    }
     
 
 
@@ -184,17 +201,58 @@ text-align: center;
     .badges-contenedor {
         font-size: 20px;
         font-weight: bold;
-        
-        
-        
-        
-      
     }
     .badge {
         margin: 3px;
+        }
+.proyectos-recientes {
+    margin: 40px;
+}
+   
+
+.seccion-descripcion {
+font-size: medium;
+font-family: "source code Pro";
+
+}
+
+.contenedor-proyectos{
+    display: grid;
+    justify-content: center;
+    background-color: beige;
+    grid-template-columns: repeat(3,300px);
+    gap: 5px;
+    }
+
+    @media (width > 200px) {
+        .contenedor-proyectos{
+            grid-template-columns: 300px;
+        }
+        
+    }
+    @media (width >600px) {
+        .contenedor-proyectos{
+            grid-template-columns: repeat(2,300px);
+        }
+        
+    }
+    @media (width >900px) {
+        .contenedor-proyectos{
+            grid-template-columns: repeat(3,300px);
+        }
         
     }
 
-   
+    .img-proyecto {
+        border-radius: 9px ;
+        width: 100%;
+        height: auto;
+        
+       
+        
+    }
 
+ 
+
+ 
 
