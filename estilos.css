@@ -219,7 +219,7 @@ font-family: "source code Pro";
 .contenedor-proyectos{
     display: grid;
     justify-content: center;
-    background-color: beige;
+    background-color: #1D202B;
     grid-template-columns: repeat(3,300px);
     gap: 5px;
     }
@@ -247,12 +247,13 @@ font-family: "source code Pro";
         border-radius: 9px ;
         width: 100%;
         height: auto;
-        
-       
-        
+        margin: 10px;
+        opacity: 40%;
     }
 
  
-
+    .img-proyecto:hover {
+        opacity: 100%;
+    }
  
 
